@@ -1,14 +1,3 @@
-# PHPfox v4 reCAPTCHA App
+# [PHPfox v4 reCAPTCHA App](http://store.phpfox.com/product/782/recaptcha)
 
 Provides reCAPTCHA for the registration process.
-
-## Setup
-
-Login into your PHPfox AdminCP and go to **Apps**. Then click on **NEW APP**.
-
-Paste in the input field:
-```
-https://github.com/moxi9/reCAPTCHA.git
-```
-
-Hit **Submit** and it should setup everything for you.
