@@ -1,24 +1,24 @@
 {
-	"id": "PHPfox_reCAPTCHA",
-	"name": "PHPfox reCAPTCHA App",
-	"version": "1.0",
-	"icon": "http://d2h79mkp7etn4r.cloudfront.net/icon/2015/07/c2fc96ec4795f01d3222376a5556c62b.png",
-	"js": [
-		"https://www.google.com/recaptcha/api.js"
-	],
-	"settings": {
-		"pf_recaptcha_enabled": {
-			"info": "reCAPTCHA Enabled",
-			"type": "input:radio",
-			"value": 0,
-			"js_variable": true
-		},
-		"pf_recaptcha_key": {
-			"info": "Site key",
-			"js_variable": true
-		},
-		"pf_recaptcha_secret": {
-			"info": "Secret key"
-		}
-	}
+    "id": "PHPfox_reCAPTCHA",
+    "name": "PHPfox reCAPTCHA App",
+    "version": 1.1,
+    "icon": "http:\/\/d2h79mkp7etn4r.cloudfront.net\/icon\/2015\/07\/c2fc96ec4795f01d3222376a5556c62b.png",
+    "js": [
+        "https:\/\/www.google.com\/recaptcha\/api.js?onload=pfRecaptchaLoad&render=explicit"
+    ],
+    "settings": {
+        "pf_recaptcha_enabled": {
+            "info": "reCAPTCHA Enabled",
+            "type": "input:radio",
+            "value": 0,
+            "js_variable": true
+        },
+        "pf_recaptcha_key": {
+            "info": "Site key",
+            "js_variable": true
+        },
+        "pf_recaptcha_secret": {
+            "info": "Secret key"
+        }
+    }
 }
