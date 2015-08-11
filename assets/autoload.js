@@ -5,6 +5,10 @@ function pfRecaptchaCheck() {
 };
 
 function pfRecaptchaLoad() {
+	if (pf_recaptcha_enabled == '0') {
+		return;
+	}
+
 	var register = $('#js_registration_submit');
 	if (!register.length) {
 		return;
@@ -17,7 +21,7 @@ function pfRecaptchaLoad() {
 };
 
 $Ready(function() {
-	if (!pf_recaptcha_enabled) {
+	if (pf_recaptcha_enabled == '0') {
 		$('#js_registration_submit').show();
 		return;
 	}
